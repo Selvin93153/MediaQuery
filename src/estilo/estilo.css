@@ -54,7 +54,46 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 5px;
     text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.tarjeta h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.tarjeta p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.tarjeta a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tarjeta a:hover {
+    background-color: #555;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
 
 footer {
     background-color: #333;
