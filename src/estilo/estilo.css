@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #070707;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -36,8 +36,19 @@ header nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
     background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #ff5733; 
+    font-size: 4em;
+}
+
+h3 {
+    margin: 0 auto; 
+    max-width: 80%; /* Ajusta la anchura para evitar que el texto se extienda demasiado */
 }
 
 section {
@@ -96,7 +107,7 @@ section {
 
 
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     text-align: center;
