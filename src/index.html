@@ -19,51 +19,60 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
+        <div class="menu-hamburguesa">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="menu-hamburguesa-menu">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </div>
     </header>
 
     <!-- Contenido Principal -->
     <main>
         <h1>MUNDO GAMER</h1>
-        <h3>Somos la pagina numero 1 del mundo de los videojuegos, aca encontraras todo tipo de rooms para cualquier tipo de emulador,
-           tambien encontraras cualquier tipo de emulador para poder jugar tanto los juegos clasicos que tanto te gustaban de niño
-           como tambien los juegos modernos de la actualidad. Te ofrecemos diversas opciones para que explores y te diviertas con solo dar 
-           un click. </h3>
+        <h3>Somos la página número 1 del mundo de los videojuegos. Aquí encontrarás todo tipo de rooms para cualquier emulador, así como una amplia variedad de emuladores para disfrutar tanto de los juegos clásicos de tu infancia como de los juegos modernos. Te ofrecemos diversas opciones para que explores y te diviertas con solo dar un clic.</h3>
     </main>
 
     <!-- Sección de Tarjetas -->
     <section>
         <div class="tarjeta">
             <img src="imagenes/contrologo.png" alt="Artículo 1">
-            <h2>LO MAS POPULAR</h2>
-            <p>Nuestra sección de emuladores te ofrece acceso a una diversidad de consolas legendarias, desde las clásicas hasta las más avanzadas. Cada emulador está optimizado para brindarte la mejor experiencia de juego posible, permitiéndote disfrutar de títulos de antaño en tu dispositivo actual. 
-                Descubre la consola que más te guste y comienza a jugar como en los viejos tiempos.</p>
-            <a href="#">Ver más</a>
+            <h2>LO MÁS POPULAR</h2>
+            <p>Nuestra sección de emuladores te ofrece acceso a una diversidad de consolas legendarias, desde las clásicas hasta las más avanzadas. Cada emulador está optimizado para brindarte la mejor experiencia de juego posible, permitiéndote disfrutar de títulos de antaño en tu dispositivo actual. Descubre la consola que más te guste y comienza a jugar como en los viejos tiempos.</p>
+            <a href="https://romsjuegos.com/">Ver más</a>
         </div>
         <div class="tarjeta">
             <img src="imagenes/emuladores.jpg" alt="Artículo 2">
             <h2>EMULADORES</h2>
-            <p> Explora una extensa colección de rooms diseñadas específicamente para una variedad de emuladores. Ya sea que busques revivir clásicos de tu infancia o descubrir títulos que marcaron una era, aquí encontrarás las rooms 
-                perfectas para llevar tus juegos al siguiente nivel. Descarga, instala y comienza a disfrutar de la experiencia retro que tanto deseas.</p>
-            <a href="#">Ver más</a>
+            <p>Explora una extensa colección de rooms diseñadas específicamente para una variedad de emuladores. Ya sea que busques revivir clásicos de tu infancia o descubrir títulos que marcaron una era, aquí encontrarás las rooms perfectas para llevar tus juegos al siguiente nivel. Descarga, instala y comienza a disfrutar de la experiencia retro que tanto deseas.</p>
+            <a href="https://www.retrostic.com/es/emulators">Ver más</a>
         </div>
         <div class="tarjeta">
             <img src="imagenes/rooms.jpg" alt="Artículo 3">
             <h2>ROOMS</h2>
-            <p> Explora una extensa colección de rooms diseñadas específicamente para una variedad de emuladores. Ya sea que busques revivir clásicos de tu infancia o descubrir títulos que marcaron una era, aquí encontrarás las rooms perfectas para llevar tus juegos al siguiente nivel.
-                 Descarga, instala y comienza a disfrutar de la experiencia retro que tanto deseas.</p>
-            <a href="#">Ver más</a>
+            <p>Explora una extensa colección de rooms diseñadas específicamente para una variedad de emuladores. Ya sea que busques revivir clásicos de tu infancia o descubrir títulos que marcaron una era, aquí encontrarás las rooms perfectas para llevar tus juegos al siguiente nivel. Descarga, instala y comienza a disfrutar de la experiencia retro que tanto deseas.</p>
+            <a href="https://romsjuegos.com/roms/">Ver más</a>
         </div>
     </section>
-    
 
- 
     <footer>
         <p>Síguenos en:</p>
         <ul>
-            <li><a href="http://www.facebook.com">FACEBOOK</a></li>
+            <li><a href="http://www.facebook.com">Facebook</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Instagram</a></li>
         </ul>
     </footer>
+    
+    <script>
+        document.querySelector('.menu-hamburguesa').addEventListener('click', function() {
+            document.querySelector('.menu-hamburguesa-menu').classList.toggle('active');
+        });
+    </script>
+    
 </body>
 </html>
