@@ -197,3 +197,65 @@ footer ul li a {
         display: block;
     }
 }
+
+
+/* Sección de Contacto */
+.contacto {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contacto p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contacto .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contacto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+}
+
+.contacto textarea {
+    resize: none;
+}
+
+.contacto .cta-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contacto .cta-btn:hover {
+    background-color: #0056b3;
+}
