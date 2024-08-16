@@ -8,6 +8,7 @@ En esta imagen se puede observar la pagina web vista desde una computadora de es
 
 ![En esta imagen se puede observar la pagina web vista desde una computadora de escritorio](src/imagenes2/pantallapc.png)
 ![Otra vista de la pagina web desde una computadora](src/imagenes2/pantallapc2.png)
+![Otra vista de la pagina web desde una computadora](src/imagenes2/pantallapc3.png)
 
 ## Pantalla de Tableta
 
