@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Gamer</title>
+    <link rel="stylesheet" href="estilo/estilo2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/pacman.jpg" alt="Logotipo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="index.html">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-hamburguesa">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Banner de Bienvenida -->
+    <section class="hero" style="background-image: url('imagenes/emuladores.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>Bienvenido a Mundo Gamer</h1>
+            <p>Tu destino para el mejor contenido de videojuegos y emuladores.</p>
+            <a href="index.html" class="cta-btn">Descubre más</a>
+        </div>
+    </section>
+    
+
+    <!-- Sección de Resumen -->
+    <section class="intro">
+        <div class="container">
+            <h2>¿Qué ofrecemos?</h2>
+            <p>En Mundo Gamer encontrarás una amplia gama de emuladores y rooms para revivir los mejores juegos de tu infancia. Además, estamos a la vanguardia con lo más nuevo en el mundo gamer.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Características Destacadas -->
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>+1000</h3>
+                <p>Rooms disponibles</p>
+            </div>
+            <div class="feature">
+                <h3>24/7</h3>
+                <p>Soporte disponible</p>
+            </div>
+            <div class="feature">
+                <h3>100%</h3>
+                <p>Compatible con múltiples dispositivos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros usuarios</h2>
+            <div class="testimonial">
+                <p>"Mundo Gamer es increíble. Tiene todo lo que un verdadero gamer necesita."</p>
+                <span>- Juan Pérez</span>
+            </div>
+            <div class="testimonial">
+                <p>"Gracias a Mundo Gamer, volví a disfrutar de los juegos que me encantaban de niño."</p>
+                <span>- Ana López</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Síguenos en:</p>
+        <ul>
+            <li><a href="http://www.facebook.com">FACEBOOK</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+<script>document.querySelector('.menu-hamburguesa').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('active');
+});</script>
+    
+</body>
+</html>
